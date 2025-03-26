@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>TRENDS</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">HOME</a>
+                    <a id="shop" onclick="shops()">SHOPS</a>
+                    <a id="blog" onclick="blogs()">BLOG</a>
+                    <a id="about" onclick="abouts()">ABOUT</a>
+                    <a id="contact" onclick="contacts()">CONTACT</a>
+                    <button id="login">Log In</button>
+                    <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+
+        
+
+        
+
+        <!--main page-->
+        <div class="loginpage">
+            <input type="text" placeholder="Enter Email" id="email">
+            <input type="password" placeholder="Enter Pass" id="pass">
+            <button id="loged">Log In</button>
+        </div>
+
+        <div class="main">
+            <div class="mainText">
+                <h2>TRENDS</h2>
+                <h1 class="top">SUPER VALUE DEALS</h1>
+                <h1>ON ALL PRODUCTS</h1>
+                <p>Trending mens shirt,Trending womens clothes,and all types of trending clothes</p>
+                <button>EXPLORE</button>
+            </div>
+            <img src="m3.png">
+        </div>
+        <!-- mens cards-->
+
+        <div class="trend">
+            <div class="head">
+                <h1>TRENDS<span> Mens wear</span></h1>
+
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="srt1.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Trending Shirts</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+                </div>
+
+
+                <div class="crd">
+                    <img src="srt2.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Trending Shirts</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="crd">
+                    <img src="srt6.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Trending Shirts</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+                <div class="crd">
+                    <img src="trend2.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Sports Trending Shirts</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--women card-->
+
+        <div class="trend" id="trendsec">
+            <div class="head">
+                <h1>TRENDS<span> Womens wear</span></h1>
+
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="wn4.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Tops</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+                <div class="crd">
+                    <img src="wn5.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Dress</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <div class="crd">
+                    <img src="wn6.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Grown</h2>
+                        <button>Add to Cart</button>
+
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="trend1.webp" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Sports t-shirt</h2>
+                        <button>Add to Cart</button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- hoodies item-->
+
+        <div class="trend" id="trendthrd">
+            <div class="head">
+                <h1>TRENDS<span> Hoodies</span></h1>
+
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="product-3.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Girl Hoodies</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="product-4.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Trending Boys Hoodies</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+
+
+                <div class="crd">
+                    <img src="product-5.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Boys Hoodies</h2>
+                        <button>Add to Cart</button>
+
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="product-6.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Sports T-shirt</h2>
+                        <button>Add to Cart</button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!--about us-->
+
+        <div class="about">
+
+            <div class="aboutus">
+                <h1>#KnowUs</h1>
+                <p>Your trusted E-commerce platform for best online shopping.</p>
+            </div>
+            <div class="me">
+                <img src="lap.png">
+                <div class="aboutText">
+                    <h1>Who we are</h1>
+                    <p>Companies and individuals that buy and sell goods and services over the internet.we probvide
+                        an
+                        ultimate t-shirt, and tops ,jackets, sweatshirts,Trackpants,shorts with premium quality
+                        .our moto is to provide trending and fashinable products made of best material from market.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--contact-->
+
+        <div class="contact">
+
+            <div class="contactus">
+                <h1>#Lets connect</h1>
+                <p>For trending clothes connect with us and for more details contact us.</p>
+            </div>
+            <div class="contactme">
+                <div class="contactText">
+                    <h1>visit our office or contact<br>
+                        us Today</h1>
+                    <p>Adress: Ballabgarh,Faridabad,India</p>
+                    <p> contact:patrawatankush@gmail.com</p>
+                    <p>Number:7982504222</p>
+                </div>
+                <img src="map.PNG">
+            </div>
+            <div class="form">
+                <h1>Connect with us.Fill form</h1>
+                <input type="text" placeholder="Enter your firstName"><br>
+                <input type="text" placeholder="Enter LastName"><br>
+                <input type="text" placeholder="Enter Email"><br>
+                <input type="text" placeholder="Enter your Number"><br>
+                <input type="text" placeholder="Enter your Adresss"><br>
+                <button onclick="submit()">Submit</button>
+            </div>
+        </div>
+
+        <!--cart-->
+
+        <div class="cart">
+            <img id="newImg" src="" alt="">
+            <div class="cartText">
+                <h1>Trends offer : Trending shop<br>
+                    now
+                </h1>
+                <h2>special price</h2>
+                <h2>$11</h2>
+                <p>Fit size:oversized.</p>
+                <p>Pack contain:1 oversized Tshirts.</p>
+                <p>Design and style:Round Neck ;sleeve type:Half sleves</p>
+                <div class="btn">
+                    <button onclick="buynow()">Buy Now</button>
+                    <button onclick="addcart()">Add to cart</button>
+                </div>
+                <button class="back" onclick="back()">Back</button>
+            </div>
+
+        </div>
+        <!--shoes item for suggestion-->
+        <div class="trend" id="trendthrd">
+            <div class="head">
+                <h1>Suggested<span> Shoes for shopping</span></h1>
+
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="shoes-1.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>NIKE HERO</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="shoes-2.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>NIKE M-LEGEND</h2>
+                        <button>Add to Cart</button>
+                    </div>
+
+
+                </div>
+
+
+                <div class="crd">
+                    <img src="shoes-3.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>TRENDING CASUAL</h2>
+                        <button>Add to Cart</button>
+
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="shoes-4.jpg" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>AIR-ZOOM</h2>
+                        <button>Add to Cart</button>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!--Blogs-->
+
+        <div class="trends">
+            <div class="head">
+                <h1>Trends<span> wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="blog">
+                    <img src="tr1.webp" alt="">
+                    <div class="blogText">
+                        <h2> Trending girl Cloths</h2>
+                        <p> Fit size:small,Medium,Large.<br>Material component: Made from 100% premium cotton which
+                            always keep you fresh and last longer</p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+
+                <div class="blog">
+                    <img src="tr3.webp" alt="">
+                    <div class="blogText">
+                        <h2> Trending Mens Cloths</h2>
+                        <p>Fit size:oversized.<br>Material component: Made from 100% premium cotton which always
+                            keep
+                            you fresh and last longer </p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Letter-->
+
+        <div class="letter">
+            <div class="letterText">
+                <h1>Sign up for NewsLetter</h1>
+                <p>for connecting us please enter your e-mail and connect with us.</p>
+            </div>
+
+            <div class="inp">
+                <input type="text" placeholder="Enter Email">
+                <button onclick="signup()">Sign up </button>
+            </div>
+        </div>
+
+        <!--footer-->
+
+        <div class="footer">
+            <div class="footerText">
+                <h2>TRENDS</h2>
+                <p>Service</p>
+                <p>customer</p>
+                <p>satisfaction</p>
+
+            </div>
+
+            <div class="footerText">
+                <h2>About us</h2>
+                <p>Adress:Ballabgarh,Faridabad,Haryana,121004</p>
+                <p>service</p>
+                <p>customer</p>
+                <p>satisfaction</p>
+            </div>
+
+            <div class="footerText">
+                <h2>Contact</h2>
+                <p>7982504222</p>
+                <p>customer</p>
+                <p>coming up...</p>
+                <p>New Arrival</p>
+            </div>
+
+            <div class="footerText">
+                <h2>Trending</h2>
+                <p>Service</p>
+                <p>customer</p>
+                <p>Shops</p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="script2.js"></script>
+</body>
+
+</html>
