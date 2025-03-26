@@ -1,1 +1,5 @@
-# Ecommerce2 Website Using HTML,CSS,JavaScript.
+# Ecommerce2 -TRENDS<br>
+TEchnoligies used:<br>
+HTML.
+CSS.
+JavaScript.
