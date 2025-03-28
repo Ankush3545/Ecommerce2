@@ -1,5 +1,5 @@
 # Ecommerce2 -TRENDS<br>
-Technoligies used:<br>
-HTML.
-CSS.
+Technologies used:<br>
+HTML.<br>
+CSS.<br>
 JavaScript.
