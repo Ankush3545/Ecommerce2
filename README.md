@@ -3,4 +3,4 @@ Online Platform for shopping<br>
 Technologies used:<br>
 HTML.<br>
 CSS.<br>
-JavaScript.
+JavaScript.<br>
